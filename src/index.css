@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(197, 206, 215);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}   
+
+nav{
+  background-color:rgb(137, 195, 195);
+  padding: 50px 00px;
+  font-size:20px;
+  text-decoration:none;
+  border:2px solid ;
+
+}
+nav a{
+  margin-right:20px;
+}
+
+nav a.active{
+  text-decoration:none;
+  font-weight:bold;
+}  
+
+.home{
+  font-size:22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+/* Add your styles in your CSS file or inline styles */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  border:2px solid;
+  
+  height:50px;
+  border-radius:8px;
+  background-color:rgb(137, 195, 195);
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top:200px;
+}
+
+.footer-info p {
+  margin-right: 20px ;
+  margin-left: 20px;
+  margin-top: 300px;; /* Add margin to create space between the links */
+}
+
